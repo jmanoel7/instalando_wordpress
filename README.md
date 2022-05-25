@@ -51,7 +51,7 @@ sudo apt install mariadb-client mariadb-server
 
 ```sh
 sudo apt install php7.3 php7.3-bz2 php7.3-cgi php7.3-cli php7.3-common php7.3-dev php7.3-json php7.3-mbstring php7.3-mysql php7.3-opcache \
-    php7.3-phpdbg php7.3-readline php7.3-xml php7.3-xsl php7.3-zip php7.3-fpm libapache2-mod-php7
+    php7.3-phpdbg php7.3-readline php7.3-xml php7.3-xsl php7.3-zip php7.3-fpm libapache2-mod-php7.3
 ```
 
 ## Configurando o MariaDB
