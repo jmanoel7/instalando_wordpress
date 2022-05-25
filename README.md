@@ -1,7 +1,7 @@
 # instalando_wordpress
 Tutorial de como instalar wordpress no Debian GNU/Linux Bullseye
 
-1. [Baixe e instale o Debian GNU/Linux Bullseye](#baixe-e-instale-o-debian-gnulinux-bullseye)
+1. [Acesse o Debian GNU/Linux Buster na AWS](#acesse-o-debian-gnulinux-buster-na-aws)
 2. [Atualizando o servidor](#atualizando-o-servidor)
 3. [Configurando o locale](#configurando-o-locale)
 4. [Instalando os pacotes Necessários](#instalando-os-pacotes-necessários)
@@ -10,19 +10,11 @@ Tutorial de como instalar wordpress no Debian GNU/Linux Bullseye
 7. [Configurando o wordpress](#configurando-o-wordpress)
 8. [Instalando o wordpress](#instalando-o-wordpress)
 
-## Baixe e instale o Debian GNU/Linux Bullseye
+## Acesse o Debian GNU/Linux Buster na AWS
 
-- Para baixar no diretório corrente:
+- Link de acesso na marketplace da AWS:
 
-```sh
-curl -L -O http://sft.if.usp.br/debian-cd/11.3.0/amd64/iso-cd/debian-edu-11.3.0-amd64-netinst.iso
-```
-
-- Guia de Instalação acessado a partir do navegador firefox:
-
-```sh
-firefox https://www.debian.org/releases/bullseye/amd64/index.pt.html
-```
+https://aws.amazon.com/marketplace/pp/prodview-vh2uh3o4pdfow?ref_=unifiedsearch
 
 ## Atualizando o servidor
 
@@ -58,8 +50,8 @@ sudo apt install mariadb-client mariadb-server
 - Linguagem PHP
 
 ```sh
-sudo apt install php7.4 php7.4-bz2 php7.4-cgi php7.4-cli php7.4-common php7.4-dev php7.4-json php7.4-mbstring php7.4-mysql php7.4-opcache \
-    php7.4-phpdbg php7.4-readline php7.4-xml php7.4-xsl php7.4-zip php7.4-fpm libapache2-mod-php7
+sudo apt install php7.3 php7.3-bz2 php7.3-cgi php7.3-cli php7.3-common php7.3-dev php7.3-json php7.3-mbstring php7.3-mysql php7.3-opcache \
+    php7.3-phpdbg php7.3-readline php7.3-xml php7.3-xsl php7.3-zip php7.3-fpm libapache2-mod-php7
 ```
 
 ## Configurando o MariaDB
